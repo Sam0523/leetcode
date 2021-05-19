@@ -4,10 +4,7 @@
  * [406] 根据身高重建队列
  */
 
-#include <iostream>
-#include <vector>
-#include <algorithm>
-using namespace std;
+#include "common.hpp"
 
 // @lc code=start
 class Solution {

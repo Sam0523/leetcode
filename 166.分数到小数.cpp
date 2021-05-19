@@ -4,11 +4,7 @@
  * [166] 分数到小数
  */
 
-#include <iostream>
-#include <vector>
-#include <string>
-
-using namespace std;
+#include "common.hpp"
 
 // @lc code=start
 class Solution {

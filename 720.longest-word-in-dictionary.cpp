@@ -4,11 +4,7 @@
  * [720] Longest Word in Dictionary
  */
 
-#include <algorithm>
-#include <string>
-#include <vector>
-
-using namespace std;
+#include "common.hpp"
 
 // @lc code=start
 class Solution {

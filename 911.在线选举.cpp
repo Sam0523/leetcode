@@ -4,25 +4,19 @@
  * [911] 在线选举
  */
 
-#include <vector>
-#include <algorithm>
-
-using namespace std;
+#include "common.hpp"
 
 // @lc code=start
-class TopVotedCandidate
-{
+class TopVotedCandidate {
     vector<pair<int, int>> result;
 
 public:
-    TopVotedCandidate(vector<int>& persons, vector<int>& times)
-    {
+    TopVotedCandidate(vector<int>& persons, vector<int>& times) {
         const size_t N = persons.size();
         vector<int>  votes(N, 0);
 
         result.emplace_back(-1, 0);
-        for (size_t i = 0; i < N; i++)
-        {
+        for (size_t i = 0; i < N; i++) {
             auto currentTop = result.back().second;
             votes[persons[i]]++;
             if (votes[persons[i]] >= votes[currentTop] &&
@@ -31,8 +25,7 @@ public:
         }
     }
 
-    int q(int t)
-    {
+    int q(int t) {
         return (upper_bound(result.begin(), result.end(), t,
                             [](const int& a, const pair<int, int>& b) {
                                 return a < b.first;

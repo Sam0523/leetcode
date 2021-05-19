@@ -4,14 +4,12 @@
  * [441] 排列硬币
  */
 
-#include <cmath>
+#include "common.hpp"
 
 // @lc code=start
-class Solution
-{
+class Solution {
 public:
-    int arrangeCoins(int n)
-    {
+    int arrangeCoins(int n) {
         return static_cast<int>(sqrt(2. * static_cast<double>(n) + .25) - .5);
     }
 };

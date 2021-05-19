@@ -4,12 +4,7 @@
  * [95] 不同的二叉搜索树 II
  */
 
-#include <algorithm>
-#include <map>
-#include <utility>
-#include <vector>
-
-using namespace std;
+#include "common.hpp"
 
 struct TreeNode {
     int       val;

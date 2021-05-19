@@ -4,14 +4,7 @@
  * [227] 基本计算器 II
  */
 
-#include <cctype>
-#include <iostream>
-#include <sstream>
-#include <stack>
-#include <string>
-#include <unordered_map>
-
-using namespace std;
+#include "common.hpp"
 
 // @lc code=start
 class Solution {

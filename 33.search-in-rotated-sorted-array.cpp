@@ -4,11 +4,7 @@
  * [33] Search in Rotated Sorted Array
  */
 
-#include <algorithm>
-#include <iostream>
-#include <vector>
-
-using namespace std;
+#include "common.hpp"
 
 // @lc code=start
 class Solution {

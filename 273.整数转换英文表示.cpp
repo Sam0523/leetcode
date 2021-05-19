@@ -4,11 +4,7 @@
  * [273] 整数转换英文表示
  */
 
-#include <iostream>
-#include <map>
-#include <string>
-
-using namespace std;
+#include "common.hpp"
 
 // @lc code=start
 class Solution {

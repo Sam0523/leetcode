@@ -4,12 +4,7 @@
  * [981] Time Based Key-Value Store
  */
 
-#include <algorithm>
-#include <string>
-#include <unordered_map>
-#include <vector>
-
-using namespace std;
+#include "common.hpp"
 
 // @lc code=start
 class TimeMap {

@@ -4,11 +4,7 @@
  * [1514] 概率最大的路径
  */
 
-#include <algorithm>
-#include <queue>
-#include <vector>
-
-using namespace std;
+#include "common.hpp"
 
 // @lc code=start
 class Solution {

@@ -4,12 +4,7 @@
  * [719] Find K-th Smallest Pair Distance
  */
 
-#include <algorithm>
-#include <queue>
-#include <utility>
-#include <vector>
-
-using namespace std;
+#include "common.hpp"
 
 // @lc code=start
 class Solution {

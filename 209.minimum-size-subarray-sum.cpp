@@ -4,11 +4,7 @@
  * [209] Minimum Size Subarray Sum
  */
 
-#include <algorithm>
-#include <limits>
-#include <vector>
-
-using namespace std;
+#include "common.hpp"
 
 // @lc code=start
 class Solution {

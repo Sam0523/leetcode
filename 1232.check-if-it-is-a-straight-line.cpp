@@ -4,15 +4,11 @@
  * [1232] Check If It Is a Straight Line
  */
 
-#include <vector>
-
-using namespace std;
+#include "common.hpp"
 
 // @lc code=start
 class Solution {
 public:
-    bool checkStraightLine(vector<vector<int>>& coordinates) {
-
-    }
+    bool checkStraightLine(vector<vector<int>>& coordinates) {}
 };
 // @lc code=end

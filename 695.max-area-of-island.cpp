@@ -4,13 +4,7 @@
  * [695] Max Area of Island
  */
 
-#include <iostream>
-#include <queue>
-#include <tuple>
-#include <utility>
-#include <vector>
-
-using namespace std;
+#include "common.hpp"
 
 // @lc code=start
 class Solution {

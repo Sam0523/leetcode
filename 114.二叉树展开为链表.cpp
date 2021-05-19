@@ -3,15 +3,8 @@
  *
  * [114] 二叉树展开为链表
  */
-struct TreeNode {
-    int       val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode() : val(0), left(nullptr), right(nullptr) {}
-    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-    TreeNode(int x, TreeNode *left, TreeNode *right) :
-        val(x), left(left), right(right) {}
-};
+
+#include "common.hpp"
 
 // @lc code=start
 /**
