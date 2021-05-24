@@ -22,6 +22,6 @@ DerivePointerAlignment: true
 IndentPPDirectives: AfterHash
 IndentWidth: 4
 ReflowComments:  true
-SortIncludes: false
+SortIncludes: true
 TabWidth: 4
 UseTab: Never
