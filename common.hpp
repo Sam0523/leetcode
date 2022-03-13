@@ -1,9 +1,13 @@
 #include <algorithm>
 #include <array>
+#include <cassert>
 #include <cmath>
+#include <functional>
 #include <iostream>
+#include <iterator>
 #include <list>
 #include <map>
+#include <memory>
 #include <numeric>
 #include <queue>
 #include <sstream>
